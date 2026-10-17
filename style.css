@@ -1,0 +1,40 @@
+:root{--bg:#121214;--panel:#1a1a1e;--gold:#c9a24b;--gold2:#e6c77a;--text:#f2f2f2;--muted:#a6a6ad;--line:#2a2a30}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:"Helvetica Neue",Arial,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--gold2);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:880px;margin:0 auto;padding:0 22px}
+header{border-bottom:1px solid var(--line);padding:22px 0}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.logo{font-family:Georgia,"Times New Roman",serif;font-size:22px;letter-spacing:.18em;color:var(--text)}
+.logo b{color:var(--gold);font-weight:700}
+.logo:hover{text-decoration:none}
+nav a{color:var(--muted);margin-left:18px;font-size:14px;letter-spacing:.05em}
+nav a:first-child{margin-left:0}
+.hero{padding:90px 0 70px;text-align:center}
+.hero .mark{font-family:Georgia,serif;font-size:clamp(40px,9vw,76px);letter-spacing:.16em;line-height:1.1;margin:0}
+.hero .mark span{display:block;font-size:.42em;letter-spacing:.5em;color:var(--text);margin-bottom:6px}
+.hero .mark b{color:var(--gold)}
+.hero p.lead{color:var(--muted);font-size:18px;max-width:620px;margin:26px auto 0}
+.divider{width:64px;height:1px;background:var(--gold);margin:30px auto}
+section{padding:40px 0;border-top:1px solid var(--line)}
+h1,h2,h3{font-family:Georgia,serif;font-weight:400;color:var(--text)}
+h2{color:var(--gold2);letter-spacing:.04em}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:20px}
+.card{background:var(--panel);border:1px solid var(--line);border-top:2px solid var(--gold);padding:22px;border-radius:4px}
+.card h3{margin:0 0 8px;font-size:19px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.contacts{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.btn{display:inline-block;border:1px solid var(--gold);color:var(--gold2);padding:11px 22px;border-radius:2px;letter-spacing:.06em;font-size:15px}
+.btn:hover{background:var(--gold);color:var(--bg);text-decoration:none}
+.doc{padding:50px 0}
+.doc h1{font-size:34px;margin-bottom:4px}
+.doc .date{color:var(--muted);font-size:14px}
+.doc h2{font-size:21px;margin-top:34px}
+.summary{background:var(--panel);border-left:2px solid var(--gold);padding:18px 22px;margin:26px 0;border-radius:2px}
+.summary h2{margin-top:0}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+footer a{color:var(--muted);margin-right:16px}
+@media(max-width:560px){nav a{margin-left:12px}.hero{padding:60px 0 50px}}
