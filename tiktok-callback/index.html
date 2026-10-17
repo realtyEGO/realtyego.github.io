@@ -1,0 +1,13 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Realty EGO — подключение TikTok</title><link rel="stylesheet" href="../style.css"></head>
+<body><main style="max-width:640px;margin:60px auto;padding:0 20px">
+<h1>Подключение TikTok</h1>
+<p id="msg">Проверяю ответ TikTok…</p>
+<p><code id="code" style="word-break:break-all;font-size:15px"></code></p>
+<button id="copy" style="display:none;padding:10px 18px">Скопировать код</button>
+</main><script>
+const p=new URLSearchParams(location.search),c=p.get('code'),e=p.get('error');
+const m=document.getElementById('msg');
+if(c){m.textContent='Готово. Скопируйте этот код и вставьте его в защищённое поле в чате с Бипо (не в сам чат):';document.getElementById('code').textContent=c;const b=document.getElementById('copy');b.style.display='inline-block';b.onclick=()=>navigator.clipboard.writeText(c).then(()=>b.textContent='Скопировано');}
+else if(e){m.textContent='TikTok вернул ошибку: '+e+' '+(p.get('error_description')||'');}
+else{m.textContent='Эта страница используется для подключения TikTok к Realty EGO.';}
+</script></body></html>
