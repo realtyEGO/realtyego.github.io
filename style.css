@@ -7,7 +7,7 @@ a:hover{text-decoration:underline}
 .wrap{max-width:880px;margin:0 auto;padding:0 22px}
 header{border-bottom:1px solid var(--line);padding:22px 0}
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.logo{font-family:Georgia,"Times New Roman",serif;font-size:22px;letter-spacing:.18em;color:var(--text)}
+.logo{font-family:Georgia,"Times New Roman",serif;font-size:22px;letter-spacing:.02em;color:var(--text);white-space:nowrap}
 .logo b{color:var(--gold);font-weight:700}
 .logo:hover{text-decoration:none}
 nav a{color:var(--muted);margin-left:18px;font-size:14px;letter-spacing:.05em}
