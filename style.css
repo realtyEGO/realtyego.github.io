@@ -13,9 +13,8 @@ header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1
 nav a{color:var(--muted);margin-left:18px;font-size:14px;letter-spacing:.05em}
 nav a:first-child{margin-left:0}
 .hero{padding:90px 0 70px;text-align:center}
-.hero .mark{font-family:Georgia,serif;font-size:clamp(40px,9vw,76px);letter-spacing:.16em;line-height:1.1;margin:0}
-.hero .mark span{display:block;font-size:.42em;letter-spacing:.5em;color:var(--text);margin-bottom:6px}
-.hero .mark b{color:var(--gold)}
+.hero .mark{font-family:Georgia,serif;font-size:clamp(40px,8vw,68px);letter-spacing:.04em;line-height:1.1;margin:0;white-space:nowrap}
+.hero .mark b{color:var(--gold);font-weight:700}
 .hero p.lead{color:var(--muted);font-size:18px;max-width:620px;margin:26px auto 0}
 .divider{width:64px;height:1px;background:var(--gold);margin:30px auto}
 section{padding:40px 0;border-top:1px solid var(--line)}
