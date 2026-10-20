@@ -65,3 +65,10 @@ footer a{color:var(--muted);margin-right:16px}
 .vcard p{margin:4px 0}
 .vcard .muted{color:var(--muted);font-size:16px}
 @media(max-width:720px){.hero-grid,.about-grid,.about-grid-rev{grid-template-columns:1fr}.hero-grid .photo{order:-1;max-width:420px}.about-grid .photo{max-width:360px}}
+
+footer .legal{flex-basis:100%;font-size:13.5px;line-height:1.55;margin-top:6px}
+footer .legal p{margin:4px 0}
+footer .legal a{margin-right:0}
+.meta-note{color:var(--muted);font-size:14px;margin-top:14px}
+.vcard .requisites{font-size:14px;margin-top:10px}
+.nowrap{white-space:nowrap}
