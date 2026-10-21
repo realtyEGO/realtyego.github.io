@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /youtube-callback/
+Disallow: /youtube-connect/
+Disallow: /about/
+
+Sitemap: https://realtyego.github.io/sitemap.xml
+Sitemap: https://realtyego.github.io/penthouse-kaliningrad/sitemap.xml
+Sitemap: https://realtyego.github.io/penthouse-avangard/sitemap.xml
